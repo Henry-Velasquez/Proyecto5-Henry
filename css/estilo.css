@@ -1,0 +1,606 @@
+/*
+	Extra small devices Pshones	(<768px)	320
+	Small devices Tables (>=768px)			768
+	Medium devices Desktops	(>=992px)		1024
+	Large devices (>=1200px)				1366
+
+
+*/
+
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+.contenedor{
+	position: relative;
+	margin: auto;
+	width: 100%;
+	height: auto;
+}
+
+.fila{
+	position: relative;
+	margin: auto;
+	width: 100%;
+	height: auto;
+	clear: both;
+	display: table;
+}
+
+[class*="col-"]{
+	float: left;
+	/*border: 1px solid black;*/
+	padding: 12px;
+}
+
+body{
+	background: url(../img/background.jpg);
+	background-repeat: repeat;
+}
+
+/*--------------------------
+HEDER
+--------------------------*/
+
+header{
+	background: url(../img/cabezote.jpg);
+}
+
+/*--------------------------
+NAV
+--------------------------*/
+
+nav{
+	background:url(../img/nav.jpg);	
+}
+
+nav ul li{
+	border-bottom:  1px solid #bcd1cb;
+	border-right:1px solid #bcd1cb;	
+	text-align: center;
+}
+
+nav ul li a{
+	font-size:14px;
+	color: wheat;
+}
+
+/*--------------------------
+SLIDE
+--------------------------*/
+
+#slide div{
+	padding: 0%;
+}
+
+#slide div ul li{
+	background: url(../img/slide.jpg);
+	background-size: cover;
+}
+
+/*--------------------------
+BOTONERA SLIDE
+--------------------------*/
+
+#botoneraslide div{
+	/*height: auto;*/
+	padding: 0;
+	/*width: 100%;*/
+	background: url(../img/backBotonesSlide.jpg);
+}
+
+#botoneraslide div div{
+	margin: auto;
+	width: 100px;
+}
+
+#botoneraslide div div li{
+	float: left;
+	width: 15px;
+	height: 15px;
+	border-radius: 100%;
+	background: #232d80;
+	border: 3px solid wheat;
+	margin: 3px 2px;
+}
+
+/*--------------------------
+SECTION INICIO
+--------------------------*/
+
+#Inicio div{
+	position: relative;
+	background: white;
+}
+
+#Inicio ul li h1{
+	text-align: center;
+	margin: 23px 27px; 
+	font-weight: 100;
+	font-size: 25px;
+}
+
+#Inicio ul li p{
+	text-align: center	;
+	margin: 23px 27px;
+	font-size: 15px;
+}
+
+/*--------------------------
+SECTION QUIENES SOMOS
+--------------------------*/
+
+#QuienesSomos div{
+	width: 100%;
+	height: auto;
+	background: white;
+}
+
+#QuienesSomos div h1{
+	width: 90%;
+	margin: auto;
+	color: #1f1d21;
+	font-weight: 100;
+}
+
+#QuienesSomos div hr{
+	width: 90%;
+	margin: auto;
+	border: 1px solid black;
+}
+
+#QuienesSomos div p{
+	width: 80%;
+	padding: 25px;
+	margin: auto;
+	color: #414042;
+	text-align: justify;
+}
+
+#QuienesSomos div img{
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	width: 272px;
+}
+
+/*--------------------------
+SECTION SERVICIOS
+--------------------------*/
+
+#Servicios{
+	padding: 1.5%;
+	width: 100%;
+	height: 100%;
+	background: white;
+}
+
+#Servicios #cajaServicios{
+	padding: 1.5%;
+	margin-left: 5%;
+	width: 90%;
+	background: white;
+	box-shadow: 0px 0px 30px #222;
+}
+
+#Servicios #cajaServicios ul#lista{
+	float: left;
+	width: 20%;
+}
+
+#Servicios #cajaServicios ul#lista li{
+	width: 95%;
+	margin: 7% auto;
+}
+
+#Servicios #cajaServicios ul#visor li h1{
+	margin-top: 2%;
+	z-index: 1;
+	left: 20px;
+	color: #4d545a;
+	font-weight: 100;
+}
+
+#Servicios #cajaServicios ul#visor{
+	width: 77%;
+	float: right;
+}
+
+#Servicios #cajaServicios ul#visor img{
+	float: left;
+}
+
+#Servicios #cajaServicios ul#visor li p{
+	z-index: 1;
+	bottom: 0;
+	background: rgba(0, 0, 0, .7);
+	color: wheat;
+	width: 100%;
+	font-size: 14px;
+	line-height: 40px;
+	padding-left: 20px;
+}
+
+/*--------------------------
+SECTION CONTACTENOS
+--------------------------*/
+
+#Contactenos{
+	background: white;
+}
+
+#Contactenos form{
+	width: 95%;
+	height: 300px;
+	margin: auto;
+}
+
+#Contactenos form div#izq{
+	padding: 0%;
+	height: 100%;
+}
+
+#Contactenos form div#izq input{
+	width: 95%;
+	height: 20%;
+	border: 0;
+	padding-left: 2%;
+	margin: 5% 2.5%;
+	background: #cde9d7;
+}
+
+#Contactenos form div#der{
+	padding: 0%;
+	height: 100%;
+}
+
+#Contactenos form div#der textarea{
+	width: 95%;
+	height: 55%;
+	border: 0;
+	padding: 2%;
+	margin-top: 2.5%;
+	margin-left: 2.5%;
+	background: #cde9d7;
+}
+
+#Contactenos form div#der input{
+	width: 95%;
+	height: 24.5%;
+	border: 0;
+	margin-top: 2.5%;
+	margin-left: 2.5%;
+	background:  #1a1d20;
+	color: wheat;
+}
+
+/*--------------------------
+BOTTOM
+--------------------------*/
+
+#bottom div{
+	height: 190px;
+	background: url(../img/backBottom.jpg);
+	background-repeat: repeat;
+	padding: 0%;
+}
+
+
+
+#bottom div ul li h1{
+	margin: 13px 18px;
+	color: wheat;
+	font-size: 18px;
+	font-weight: 100;
+}
+
+#bottom div ul li ol li{
+	height: 20px;
+	list-style: inside;
+	font-size: 15px;
+	color: wheat;
+}
+
+#bottom div ul li img{
+	border: 4px solid wheat;
+	background: url(..img/imgGaleria.jpg);
+	background-size: cover;
+}
+
+#bottom div ul li ul li{
+	float: left;
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	background: wheat;
+	margin: 5px;
+}
+
+#bottom div ul li ul li:first-child{
+	background: url(../img/facebook.jpg);
+	background-size: cover;
+}
+
+#bottom div ul li ul li:nth-child(2){
+	background: url(../img/iconoGoogle.jpg);
+	background-size: cover;
+}
+
+#bottom div ul li ul li:nth-child(3){
+	background: url(../img/iconoPinterest.jpg);
+	background-size: cover;
+}
+
+#bottom div ul li ul li:last-child{
+	background: url(../img/iconoTwitter.jpg);
+	background-size: cover;
+}
+
+#bottom div ul li ul li a{
+	float: left;
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+}
+
+/*--------------------------
+FOOTER
+--------------------------*/
+
+footer{
+	margin: auto;
+	width: 100%;
+	background: black;
+	text-align: center;
+	color: wheat;
+	font-size: 14px;
+}
+
+/*
+
+PANTALLA DE ESCRITORIO GRANDE   LARGE (lg)
+
+*/
+
+@media(min-width: 1200px){
+
+	.col-lg-12{width: 100%;}
+	.col-lg-11{width: 91.66666667%;}
+	.col-lg-10{width: 81.33333333%;}
+	.col-lg-9{width: 75%;}
+	.col-lg-8{width: 66.66666667%;}
+	.col-lg-7{width: 58.33333333%;}
+	.col-lg-6{width: 50%;}
+	.col-lg-5{width: 41.66666667%;}
+	.col-lg-4{width: 33.33333333%;}
+	.col-lg-3{width: 25%;}
+	.col-lg-2{width: 16.66666667%;}
+	.col-lg-1{width: 8.33333333%;}
+
+	header #logo img{
+		width: 50%;
+		height: 50%;
+	}
+
+	#bottom div ul li img{
+		margin-top: 6px;
+	}
+
+	#bottom div ul li ul li{
+		margin-left: 28.5px;
+	}
+}
+
+/*
+
+PANTALLA DE ESCRITORIO MEDIANO - MEDIUM (md)
+
+*/
+
+@media(max-width:  1199px) and (min-width: 992px){
+
+	.col-md-12{width: 100%;}
+	.col-md-11{width: 91.66666667%;}
+	.col-md-10{width: 81.33333333%;}
+	.col-md-9{width: 75%;}
+	.col-md-8{width: 66.66666667%;}
+	.col-md-7{width: 58.33333333%;}
+	.col-md-6{width: 50%;}
+	.col-md-5{width: 41.66666667%;}
+	.col-md-4{width: 33.33333333%;}
+	.col-md-3{width: 25%;}
+	.col-md-2{width: 16.66666667%;}
+	.col-md-1{width: 8.33333333%;}
+
+	header #logo img{
+		width: 50%;
+		height: 50%;
+	}
+
+	section#Servicios #cajaServicios ul#lista li{
+		width: 95%;
+		margin: 7.5% auto;
+	}
+
+	section#Servicios #cajaServicios ul#visor li p{
+		z-index: 1;
+		bottom: 0;
+		background: rgba(0, 0, 0, .7);
+		color: wheat;
+		width: 100%;
+		font-size: 14px;
+		line-height: 35px;
+		padding-left: 20px;
+	}
+
+	#Contactenos form div#der textarea{
+		height: 52%;
+	}
+
+	#Contactenos form div#der input{
+		height: 22%;
+	}
+
+	#bottom div ul li ul li{
+		margin-left: 11px;
+	}
+
+}
+
+/*
+
+PANTALLA DE TABLET - SMALL (sm)
+
+*/
+
+@media(max-width:  991px) and (min-width: 768px){
+
+	.col-sm-12{width: 100%;}
+	.col-sm-11{width: 91.66666667%;}
+	.col-sm-10{width: 81.33333333%;}
+	.col-sm-9{width: 75%;}
+	.col-sm-8{width: 66.66666667%;}
+	.col-sm-7{width: 58.33333333%;}
+	.col-sm-6{width: 50%;}
+	.col-sm-5{width: 41.66666667%;}
+	.col-sm-4{width: 33.33333333%;}
+	.col-sm-3{width: 25%;}
+	.col-sm-2{width: 16.66666667%;}
+	.col-sm-1{width: 8.33333333%;}
+
+	header #logo img{
+		width: 75%;
+		height: 75%;
+	}
+
+	section#Servicios #cajaServicios ul#lista li{
+		width: 95%;
+		margin: 8.5% auto;
+	}
+
+	section#Servicios #cajaServicios ul#visor li p{
+		z-index: 1;
+		bottom: 0;
+		background: rgba(0, 0, 0, .7);
+		color: wheat;
+		width: 100%;
+		font-size: 13px;
+		line-height: 27px;
+		padding-left: 20px;
+	}
+
+	#Contactenos form div#der textarea{
+		height: 48%;
+	}
+
+	#Contactenos form div#der input{
+		height: 22%;
+	}
+
+	#bottom div{
+		height: 100%;
+	}
+
+	#bottom div ul li img{
+		margin-top: 6px;
+	}
+
+	#bottom div ul li{
+		margin-bottom: 7px;
+	}
+	
+	#bottom div ul li ul li{
+		margin-left: 37px;
+	}
+
+}
+
+/*
+
+PANTALLA DE PHONES - ESTRA SMALL (xs)
+
+*/
+
+@media(max-width:  767px){
+
+	.col-xs-12{width: 100%;}
+	.col-xs-11{width: 91.66666667%;}
+	.col-xs-10{width: 81.33333333%;}
+	.col-xs-9{width: 75%;}
+	.col-xs-8{width: 66.66666667%;}
+	.col-xs-7{width: 58.33333333%;}
+	.col-xs-6{width: 50%;}
+	.col-xs-5{width: 41.66666667%;}
+	.col-xs-4{width: 33.33333333%;}
+	.col-xs-3{width: 25%;}
+	.col-xs-2{width: 16.66666667%;}
+	.col-xs-1{width: 8.33333333%;}
+
+	header #logo img{
+		width: 40%;
+		height: 40%;
+	}
+
+	#QuienesSomos div img{
+		width: 100%;
+	}
+
+	#QuienesSomos div p{
+		width: 100%;
+	}
+
+	section#Servicios #cajaServicios ul#lista{
+		width: 100%;
+	}
+
+	section#Servicios #cajaServicios ul#lista li{
+		float: left;
+		margin-top: 3%;
+		margin-left: 6px;
+		width: 30%;
+	}
+
+	section#Servicios #cajaServicios ul#visor{
+		width: 100%;
+	}
+
+	section#Servicios #cajaServicios ul#visor li h1{
+		z-index: 1;
+		left: 20px;
+		color: #4d545a;
+		font-weight: 100;
+		font-size: 16px;
+	}
+
+	section#Servicios #cajaServicios ul#visor li p{
+		z-index: 1;
+		background: rgba(0, 0, 0, .7);
+		color: wheat;
+		width: 100%;
+		font-size: 10px;
+		line-height: 27px;
+		padding-left: 10px;
+	}
+
+	#bottom div{
+		height: 100%;
+	}
+
+	#bottom div ul li img{
+		margin-top: 6px;
+	}
+
+	#bottom div ul li{
+		margin-bottom: 8px;
+	}
+
+	#bottom div ul li ul li{
+		margin-left: 23px;
+	}
+
+}
